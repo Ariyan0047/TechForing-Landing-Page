@@ -1,0 +1,719 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'Exo';
+  src: url(../fonts/exo/Exo-Regular.otf);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(../fonts/montserrat/Montserrat-Regular.otf);
+  font-style: normal;
+}
+
+html,
+body {
+  font-family: Montserrat, Exo;
+  font-size: 62.5%;
+  overflow-x: hidden;
+  /*   HEADER SECTION   */
+  /*   END HEADER SECTION   */
+  /*   ABOUT SECTION   */
+  /*  END ABOUT SECTION   */
+  /*  SERVICE SECTION   */
+  /* END SERVICE SECTION   */
+  /* CASE STUDY SECTION   */
+  /* END CASE STUDY SECTION   */
+  /* BLOG SECTION  */
+}
+
+html header .navbar,
+body header .navbar {
+  z-index: 100;
+  font-size: 1.6rem;
+  padding: 1.2rem;
+  background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+html header .navbar a img,
+body header .navbar a img {
+  width: 12rem;
+}
+
+html header .navbar div ul li,
+body header .navbar div ul li {
+  margin: 0 0 0 2rem;
+}
+
+html header .navbar .navbar-toggler,
+body header .navbar .navbar-toggler {
+  outline: none;
+}
+
+html header .navbar .navbar-nav .nav-link.active,
+html header .navbar .navbar-nav .nav-link:hover,
+body header .navbar .navbar-nav .nav-link.active,
+body header .navbar .navbar-nav .nav-link:hover {
+  color: #1ebba3;
+}
+
+html header .landing,
+body header .landing {
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+html header .landing .home-wrap,
+body header .landing .home-wrap {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+html header .landing .home-wrap .home-inner::before,
+body header .landing .home-wrap .home-inner::before {
+  content: "";
+  background: url("../img/desktop_img/Header-image.png") no-repeat center center/cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+html header .caption,
+body header .caption {
+  top: 60%;
+  left: 8%;
+  position: absolute;
+  color: #ffffff;
+  z-index: 1;
+}
+
+html header .caption h1,
+body header .caption h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  padding: 0 15rem 0 15rem;
+  text-shadow: 0.1rem 0.1rem 0.5rem #000000;
+}
+
+html header .caption p,
+body header .caption p {
+  font-size: 2.4rem;
+  padding: 0 3rem 0 3rem;
+  text-shadow: 0.1rem 0.1rem 0.5rem #000000;
+}
+
+html #about_section,
+body #about_section {
+  background-color: #ecf0f1;
+}
+
+html #about_section .about,
+body #about_section .about {
+  padding: 4rem;
+  font-weight: 900;
+  color: #130f40;
+}
+
+html #about_section .about h1,
+body #about_section .about h1 {
+  font-size: 4rem;
+  padding: 4rem 0 4rem 0;
+  font-weight: inherit;
+}
+
+html #about_section .about p,
+body #about_section .about p {
+  font-size: 1.8rem;
+  font-weight: inherit;
+  color: inherit;
+  font-weight: 900;
+  line-height: 4rem;
+}
+
+html #about_section .about .branding,
+body #about_section .about .branding {
+  padding: 4rem 0 4rem 0;
+}
+
+html #about_section .about .branding img,
+body #about_section .about .branding img {
+  width: 10rem;
+  margin: 0 0 1.6rem 0;
+}
+
+html #about_section .about .branding .prof,
+body #about_section .about .branding .prof {
+  color: #7f8c8d;
+}
+
+html #about_section .about .slider_section,
+body #about_section .about .slider_section {
+  padding: 4rem 0 2rem 0;
+}
+
+html #about_section .about .slider_section .col-2 .img1,
+body #about_section .about .slider_section .col-2 .img1 {
+  width: 14rem;
+}
+
+html #about_section .about .slider_section .col-2 .img2,
+body #about_section .about .slider_section .col-2 .img2 {
+  margin: 0 2rem 0 0;
+  width: 13rem;
+}
+
+html #about_section .about .slider_section .col-2 .img3,
+body #about_section .about .slider_section .col-2 .img3 {
+  padding: 2rem 0 0 0;
+  margin: 0 2rem 0 0;
+  width: 14rem;
+}
+
+html #about_section .about .slider_section .col-2 .img4,
+body #about_section .about .slider_section .col-2 .img4 {
+  padding: 0 2rem 0 0;
+  margin: 0 2rem 0 0;
+  width: 15rem;
+}
+
+html #about_section .about .slider_section .col-2 .img5,
+body #about_section .about .slider_section .col-2 .img5 {
+  margin: 0 2rem 0 0;
+  padding: 2rem 0 0 0;
+  width: 28rem;
+}
+
+html #about_section .about .slider_section .col-1,
+body #about_section .about .slider_section .col-1 {
+  padding: 4rem 0 0 14.5rem;
+  color: #130f40;
+}
+
+html #about_section .about .slider_section .col-1 .carousel-control-next,
+body #about_section .about .slider_section .col-1 .carousel-control-next {
+  color: #130f40;
+}
+
+html #about_section .about .slider_section .col-1 .carousel-control-next .img6,
+body #about_section .about .slider_section .col-1 .carousel-control-next .img6 {
+  margin: 0 0 0 3rem;
+  width: 2rem;
+  color: #130f40;
+}
+
+html #service_section,
+body #service_section {
+  background-color: #221f41;
+}
+
+html #service_section .service,
+body #service_section .service {
+  padding: 4rem 4rem 0 4rem;
+  color: #ffffff;
+}
+
+html #service_section .service .h1,
+body #service_section .service .h1 {
+  padding: 2rem 0 4rem 0;
+  font-weight: 900;
+}
+
+html #service_section .service .service_section_01,
+body #service_section .service .service_section_01 {
+  padding: 2rem 0 2rem 0;
+}
+
+html #service_section .service .service_section_01 .service_01 img,
+body #service_section .service .service_section_01 .service_01 img {
+  width: 30rem;
+}
+
+html #service_section .service .service_section_01 .service_01 p,
+body #service_section .service .service_section_01 .service_01 p {
+  padding: 4rem 0 2rem 0;
+  font-size: 1.6rem;
+  line-height: 2;
+  font-weight: 500;
+}
+
+html #service_section .service .service_section_01 .service_01 h2,
+body #service_section .service .service_section_01 .service_01 h2 {
+  font-weight: 900;
+}
+
+html #service_section .service .service_section_01 .service_01 h4,
+body #service_section .service .service_section_01 .service_01 h4 {
+  font-weight: 600;
+}
+
+html #service_section .service .service_section_01 .service_02 img,
+body #service_section .service .service_section_01 .service_02 img {
+  width: 50rem;
+}
+
+html #service_section .service .service_section_02,
+body #service_section .service .service_section_02 {
+  padding: 2rem 0 2rem 0;
+}
+
+html #service_section .service .service_section_02 .service_03 img,
+body #service_section .service .service_section_02 .service_03 img {
+  width: 20rem;
+}
+
+html #service_section .service .service_section_02 .service_03 p,
+body #service_section .service .service_section_02 .service_03 p {
+  padding: 4rem 0 2rem 0;
+  font-size: 1.6rem;
+  line-height: 2;
+  font-weight: 500;
+}
+
+html #service_section .service .service_section_02 .service_03 h2,
+body #service_section .service .service_section_02 .service_03 h2 {
+  font-weight: 900;
+}
+
+html #service_section .service .service_section_02 .service_03 h4,
+body #service_section .service .service_section_02 .service_03 h4 {
+  font-weight: 600;
+}
+
+html #service_section .service .service_section_02 .service_04 img,
+body #service_section .service .service_section_02 .service_04 img {
+  width: 50rem;
+}
+
+html #service_section .service .service_section_02 .service_04 .playbtn,
+body #service_section .service .service_section_02 .service_04 .playbtn {
+  position: absolute;
+  top: 38%;
+  left: 44%;
+  width: 6rem;
+}
+
+html #service_section .service .service_section_03,
+body #service_section .service .service_section_03 {
+  padding: 2rem 0 2rem 0;
+}
+
+html #service_section .service .service_section_03 .service_05 img,
+body #service_section .service .service_section_03 .service_05 img {
+  width: 10rem;
+}
+
+html #service_section .service .service_section_03 .service_05 p,
+body #service_section .service .service_section_03 .service_05 p {
+  padding: 4rem 0 2rem 0;
+  font-size: 1.6rem;
+  line-height: 2;
+  font-weight: 500;
+}
+
+html #service_section .service .service_section_03 .service_05 h2,
+body #service_section .service .service_section_03 .service_05 h2 {
+  font-weight: 900;
+}
+
+html #service_section .service .service_section_03 .service_05 h4,
+body #service_section .service .service_section_03 .service_05 h4 {
+  font-weight: 600;
+}
+
+html #service_section .service .service_section_03 .service_06 img,
+body #service_section .service .service_section_03 .service_06 img {
+  width: 50rem;
+}
+
+html #service_section .service .service_section_04,
+body #service_section .service .service_section_04 {
+  padding: 2rem 0 2rem 0;
+}
+
+html #service_section .service .service_section_04 .service_07 img,
+body #service_section .service .service_section_04 .service_07 img {
+  width: 20rem;
+}
+
+html #service_section .service .service_section_04 .service_07 p,
+body #service_section .service .service_section_04 .service_07 p {
+  padding: 4rem 0 2rem 0;
+  font-size: 1.6rem;
+  line-height: 2;
+  font-weight: 500;
+}
+
+html #service_section .service .service_section_04 .service_07 h2,
+body #service_section .service .service_section_04 .service_07 h2 {
+  font-weight: 900;
+}
+
+html #service_section .service .service_section_04 .service_07 h4,
+body #service_section .service .service_section_04 .service_07 h4 {
+  font-weight: 600;
+}
+
+html #service_section .service .service_section_04 .service_08 img,
+body #service_section .service .service_section_04 .service_08 img {
+  width: 50rem;
+}
+
+html #service_section .service .service_section_04 .service_08 .playbtn,
+body #service_section .service .service_section_04 .service_08 .playbtn {
+  position: absolute;
+  top: 38%;
+  left: 44%;
+  width: 6rem;
+}
+
+html #service_section .service .rule,
+body #service_section .service .rule {
+  background-color: #ffffff;
+}
+
+html #service_section .service .next_icon,
+body #service_section .service .next_icon {
+  padding: 1rem 0 2rem 0;
+  width: 6rem;
+}
+
+html #case_section,
+body #case_section {
+  margin: 10rem 0 0 0;
+  position: relative;
+}
+
+html #case_section .img_title,
+body #case_section .img_title {
+  top: 10%;
+  position: absolute;
+  color: #ffffff;
+}
+
+html #case_section .img_title .h3,
+body #case_section .img_title .h3 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+html #case_section .img_title .h2,
+body #case_section .img_title .h2 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+html #case_section .img_title .btn-success,
+body #case_section .img_title .btn-success {
+  padding: 1.4rem 4rem 1.4rem 4rem;
+  font-size: 2rem;
+  font-weight: 900;
+  border-radius: 2rem;
+}
+
+html #case_section .jumbotron,
+body #case_section .jumbotron {
+  margin: 10rem 0 2rem 0;
+  padding: 4rem 0 2rem 0;
+}
+
+html #case_section .jumbotron .card,
+body #case_section .jumbotron .card {
+  margin: 10rem auto 4rem auto;
+  width: 80rem;
+  background-color: #bdc3c7;
+  border: none;
+  padding: 2rem;
+}
+
+html #case_section .jumbotron .card .main_img,
+body #case_section .jumbotron .card .main_img {
+  top: -6rem;
+  left: 40%;
+  width: 15rem;
+  position: absolute;
+  z-index: 1;
+}
+
+html #case_section .jumbotron .card .card-body,
+body #case_section .jumbotron .card .card-body {
+  padding: 2rem;
+}
+
+html #case_section .jumbotron .card .card-body .card-img-top,
+body #case_section .jumbotron .card .card-body .card-img-top {
+  margin: 6rem auto;
+  width: 4rem;
+  left: 28.5%;
+}
+
+html #case_section .jumbotron .card .card-body h1,
+body #case_section .jumbotron .card .card-body h1 {
+  color: #221f41;
+  font-weight: 900;
+}
+
+html #case_section .jumbotron .card .card-body p,
+body #case_section .jumbotron .card .card-body p {
+  font-size: 2rem;
+  line-height: 2;
+  color: #221f41;
+  font-weight: 700;
+}
+
+html #case_section .jumbotron .card .card-body .productmng,
+body #case_section .jumbotron .card .card-body .productmng {
+  color: #7f8c8d;
+}
+
+html #case_section .jumbotron .card .card-body .card_rule,
+body #case_section .jumbotron .card .card-body .card_rule {
+  margin: 2rem auto 2rem auto;
+  width: 90%;
+  background-color: #44bd32;
+}
+
+html #case_section .jumbotron .card .slide_link,
+body #case_section .jumbotron .card .slide_link {
+  top: 3rem;
+  height: 15px;
+  width: 15px;
+  background-color: #221f41;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+html #case_section .jumbotron .card .slide_link.active,
+body #case_section .jumbotron .card .slide_link.active {
+  background-color: #44bd32;
+}
+
+html #blog_section,
+body #blog_section {
+  /* PART ONE */
+  /* END PART ONE */
+  /* PART TWO */
+}
+
+html #blog_section .blog_01 h1,
+body #blog_section .blog_01 h1 {
+  font-weight: 900;
+  color: #221f41;
+}
+
+html #blog_section .blog_01 h3,
+body #blog_section .blog_01 h3 {
+  font-weight: 900;
+  color: #221f41;
+}
+
+html #blog_section .blog_02,
+body #blog_section .blog_02 {
+  margin: 6rem auto;
+  width: 90%;
+  border: 0.1rem solid #7f8c8d;
+  border-radius: 0.8rem;
+}
+
+html #blog_section .blog_02 .d-flex,
+body #blog_section .blog_02 .d-flex {
+  padding: 2rem 4rem 2rem 4rem;
+}
+
+html #blog_section .blog_02 .d-flex h2,
+body #blog_section .blog_02 .d-flex h2 {
+  font-size: 2.6rem;
+  color: #221f41;
+  font-weight: 700;
+}
+
+html #blog_section .blog_02 .d-flex img,
+body #blog_section .blog_02 .d-flex img {
+  height: 2rem;
+  width: 3rem;
+}
+
+html #blog_section .blog_03,
+body #blog_section .blog_03 {
+  margin: 4rem auto;
+}
+
+html #blog_section .blog_03 .previous,
+body #blog_section .blog_03 .previous {
+  width: 4rem;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+html #blog_section .blog_03 .next,
+body #blog_section .blog_03 .next {
+  width: 4rem;
+}
+
+html #blog_section .blog_03 .card_01 .card,
+body #blog_section .blog_03 .card_01 .card {
+  width: 40rem;
+  background-color: #f5f6fa;
+}
+
+html #blog_section .blog_03 .card_01 .card h5,
+body #blog_section .blog_03 .card_01 .card h5 {
+  margin: 3rem 0 1rem 0;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 1rem;
+  font-size: 2rem;
+  width: 80%;
+  background-color: #44bd32;
+}
+
+html #blog_section .blog_03 .card_01 .card p,
+body #blog_section .blog_03 .card_01 .card p {
+  padding: 2rem 0 0 0;
+  font-size: 2rem;
+}
+
+html #blog_section .blog_03 .card_01 .card .img1,
+body #blog_section .blog_03 .card_01 .card .img1 {
+  width: 24%;
+  left: 20%;
+  margin: 2rem auto 2rem auto;
+}
+
+html #blog_section .blog_03 .card_02 .card,
+body #blog_section .blog_03 .card_02 .card {
+  width: 40rem;
+  background-color: #f5f6fa;
+}
+
+html #blog_section .blog_03 .card_02 .card h5,
+body #blog_section .blog_03 .card_02 .card h5 {
+  margin: 3rem 0 1rem 0;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 1rem;
+  font-size: 2rem;
+  width: 80%;
+  background-color: #44bd32;
+}
+
+html #blog_section .blog_03 .card_02 .card p,
+body #blog_section .blog_03 .card_02 .card p {
+  padding: 2rem 0 0 0;
+  font-size: 2rem;
+}
+
+html #blog_section .blog_03 .card_02 .card .img2,
+body #blog_section .blog_03 .card_02 .card .img2 {
+  width: 28%;
+  left: 20%;
+  margin: 2rem auto 2rem auto;
+}
+
+html #blog_section .case_study,
+body #blog_section .case_study {
+  margin: auto auto 4rem auto;
+}
+
+html #blog_section .case_study p,
+body #blog_section .case_study p {
+  font-size: 1.2rem;
+}
+
+html #blog_section .case_study .card,
+body #blog_section .case_study .card {
+  margin: 4rem auto 2rem auto;
+  padding: 2rem;
+  width: 30rem;
+  background-color: #f0f0f0;
+  border: none;
+}
+
+html #blog_section .case_study .card .dark,
+body #blog_section .case_study .card .dark {
+  background-color: #44bd32;
+}
+
+html .testimonialSection,
+body .testimonialSection {
+  margin: 10rem auto;
+  position: relative;
+}
+
+html .testimonialSection img,
+body .testimonialSection img {
+  height: 60rem;
+  width: 100%;
+}
+
+html .testimonialSection .mainTestimonialSection,
+body .testimonialSection .mainTestimonialSection {
+  position: absolute;
+  z-index: 10;
+  top: 8%;
+  left: 10%;
+}
+
+html .testimonialSection .mainTestimonialSection h2,
+body .testimonialSection .mainTestimonialSection h2 {
+  margin: 2rem 0 2rem 0;
+  color: #221f41;
+  font-weight: 900;
+}
+
+html .testimonialSection .mainTestimonialSection img,
+body .testimonialSection .mainTestimonialSection img {
+  margin: 2rem;
+  height: 10rem;
+  width: 10rem;
+}
+
+html #contact_section,
+body #contact_section {
+  background-color: #221f41;
+  color: #ffffff;
+  font-size: 2rem;
+  margin: -10rem 0 0 0;
+  padding: 4rem;
+}
+
+html #contact_section .d-flex,
+body #contact_section .d-flex {
+  font-size: 1.2rem;
+}
+
+html #contact_section .d-flex div p,
+body #contact_section .d-flex div p {
+  padding: 1rem;
+}
+
+/*============ BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
+/*# sourceMappingURL=main.css.map */
